@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mindless
+Build-Jdk: 1.6.0_22
+Extension-Name: locale
+Implementation-Title: locale
+Implementation-Version: 1.2
+Plugin-Class: hudson.plugins.locale.PluginImpl
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: locale
+Long-Name: Locale plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Locale+Plugin
+Plugin-Version: 1.2
+Hudson-Version: 1.377
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:
+

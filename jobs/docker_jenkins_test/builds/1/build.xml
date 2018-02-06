@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.16">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.3.5">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/docker_jenkins_test/detail/docker_jenkins_test/1</mappedUrl>
+        <modelObject class="flow-build" reference="../../../.."/>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1517905630127</timestamp>
+  <startTime>1517905630130</startTime>
+  <result>SUCCESS</result>
+  <duration>724</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node {
+    
+  stage(&apos;Pull&apos;) {
+      
+  }
+  stage(&apos;Unit Test&apos;) {
+  }
+  stage(&apos;Build&apos;) {
+      
+  }
+  stage(&apos;Tag&apos;) {
+      
+  }
+  stage(&apos;Push&apos;) {
+      
+  }
+  stage(&apos;Deploy&apos;) {
+      
+  }
+}</script>
+    <loadedScripts class="map"/>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>63309862</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>96241389</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>457354030</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>190561551</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>101655094</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>31</iota>
+    <head>1:31</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

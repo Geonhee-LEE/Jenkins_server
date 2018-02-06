@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-02-06 08:29:08.8 UTC</timestamp>
+  <md5sum>00a610b473b7c6cfe0d62e2d724c3b1c</md5sum>
+  <fileName>Credential id=Geonhee-Jenkins name=Geonhee-LEE/****** (It start from Jenkins)</fileName>
+  <usages>
+    <entry>
+      <string>docker_jenkins_test</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
